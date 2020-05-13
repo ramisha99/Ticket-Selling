@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <!-- Load the main bootstrap style sheet -->
+    <link href="C:\Users\Ramisha Mahiyat\Documents\Ramisha WEB aSSINGMENT 5\bootstrap.min.css"rel="stylesheet" type="text/css">
+    <title>Purchase Tickets</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="container">
+  <div id="view">
+    </div>
+
+        <div class="card bg-light">
+        <div class="card-body">
+          <fieldset>
+          <legend>Purchase Tickets</legend>
+          <div class="form-group row">
+
+            <div class="col-md-3">
+              <select class="form-control" id="age">
+                <option value="youth">Youth</option>
+                <option value="adult">Adult</option>
+              </select>
+            </div>
+
+            <div class="col-md-3">
+              <select class="form-control" id="member">
+                <option value="member">Member</option>
+                <option value="nonmember">Nonmember</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <button class="btn btn-primary" id="purchase">Purchase</button>
+            </div>
+          </div>
+          </fieldset>
+        </div>
+        </div>
+        <div class="card" id="table">
+        <div class="card-body">
+          <table class="table table-centered" id="tickets">
+
+        <tr>
+          <th> Iteam</th>
+          <th>Price</th>
+          <tr></tr>
+
+
+          </table>
+          <p id="result"></p>
+        </div>
+        </div>
+      </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="pricefinal.js"></script>
+  </body>
+</html>
