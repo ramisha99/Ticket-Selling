@@ -1,5 +1,5 @@
 # Ticket-Selling
-A web page to sell admission to a museum. The page will include some input 
+A web page to sell tickets for a museum. The page will include some input 
 elements where the user can specify what ticket they want to purchase. Each time the user click
 the Purchase button the page will add their purchase 
 to a table.
